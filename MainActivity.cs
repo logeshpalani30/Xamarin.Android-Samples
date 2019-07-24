@@ -90,12 +90,19 @@ namespace MapsLiveUpdate
 
             LatLng locationMarker = new LatLng(position.Latitude, position.Longitude);
             Marker marker = maps.AddMarker(new MarkerOptions().SetTitle($"You're in Latitude {position.Latitude} & {position.Longitude} Location").SetPosition(locationMarker).SetIcon(BitmapDescriptorFactory.DefaultMarker(BitmapDescriptorFactory.HueRose)));
-            
-
+            maps.MapClick += Maps_MapClick;
             var hasLocationPermission = await getLocationPermissionAsync;
             maps.MyLocationEnabled = hasLocationPermission;
         }
 
+        private void Maps_MapClick(object sender, GoogleMap.MapClickEventArgs e)
+        {
+            var position = e.Point;
+            LatLng locationMarker = new LatLng(position.Latitude, position.Longitude);
+            Marker marker = maps.AddMarker(new MarkerOptions().SetTitle("Your Pinned Location").SetSnippet($"Latitude{position.Latitude} Longitude").SetPosition(locationMarker).SetIcon(BitmapDescriptorFactory.DefaultMarker(BitmapDescriptorFactory.HueMagenta)));
+            marker.ShowInfoWindow();
+        }  
+        
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
