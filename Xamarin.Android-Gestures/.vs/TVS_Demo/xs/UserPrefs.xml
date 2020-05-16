@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{2D1E625C-477C-4B6C-BF90-F0BB34730BA4}|Default">
+  <MonoDevelop.Ide.ItemProperties.TVS__Demo AndroidDesignerPreferredTheme="AppTheme" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.NSM3Y18306016432" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TVS_Demo/MainActivity.cs">
+    <Files>
+      <File FileName="TVS_Demo/MainActivity.cs" Line="8" Column="11" />
+      <File FileName="TVS_Demo/Resources/layout/content_main.xml" Line="19" Column="15" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TVS_Demo" expanded="True">
+            <Node name="TVS_Demo" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="layout" expanded="True" />
+                <Node name="values" expanded="True" />
+              </Node>
+              <Node name="MainActivity.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
