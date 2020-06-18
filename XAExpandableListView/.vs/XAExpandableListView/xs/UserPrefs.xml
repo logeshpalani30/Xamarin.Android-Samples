@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{C0123FA6-4ADA-492D-A9C6-5C17F3A3C4D0}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/ExpandableModel.cs">
+    <Files>
+      <File FileName="Resources/layout/content_main.xml" Line="22" Column="8" />
+      <File FileName="Resources/values/colors.xml" Line="7" Column="13" />
+      <File FileName="MainActivity.cs" Line="20" Column="73" />
+      <File FileName="Models/ExpandableModel.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="XAExpandableListView" expanded="True">
+            <Node name="XAExpandableListView" expanded="True">
+              <Node name="Adapters" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="ExpandableModel.cs" selected="True" />
+              </Node>
+              <Node name="Resources" expanded="True">
+                <Node name="layout" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.XAExpandableListView AndroidDesignerPreferredTheme="Theme.MaterialComponents.Light.DarkActionBar" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.NSM3Y18306016432" />
+</Properties>

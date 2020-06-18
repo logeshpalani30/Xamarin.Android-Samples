@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" tools:showIn="@layout/activity_main">
+
+   <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/myteam_card_view"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="6dp"
+        app:contentPadding="1dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="42dp" >
+        <ExpandableListView
+            android:id="@+id/expandList"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:groupIndicator="@null"
+            android:background="@android:color/white"
+            android:dividerHeight="0.5dp"
+            android:divider="#D3D3D3"
+            android:childDivider="#D3D3D3"/>
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

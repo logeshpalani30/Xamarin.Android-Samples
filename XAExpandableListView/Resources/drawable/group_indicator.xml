@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">            
+           <item android:drawable="@drawable/down_arrow_one" android:state_empty="true">  </item>            
+           <item android:drawable="@drawable/up_arrow_one" android:state_expanded="true" android:state_checked="true"></item>                
+           <item android:drawable="@drawable/down_arrow_one"></item>
+</selector>
